@@ -26,7 +26,7 @@ const RecipeDetails = () => {
       <div className="recipe-back-button">
         <Button
           className="back-button"
-          label="back to recipes"
+          label="back"
           link
           onClick={() => window.history.back()}
         />
@@ -62,7 +62,7 @@ const RecipeDetails = () => {
                 <Card
                   className="p-shadow-4 recipe-info-card"
                   title="Ingredients"
-                  style={{ fontWeight: "bold", textAlign: "center" }}
+                  style={{ fontWeight: "bold", textAlign: "center", paddingTop: "5px", fontFamily: "times new roman" }}
                 >
                   <ul
                     className="recipe-ingredients-list"
@@ -83,7 +83,7 @@ const RecipeDetails = () => {
                 <Card
                   className="p-shadow-4 recipe-info-card"
                   title="Instructions"
-                  style={{ fontWeight: "bold", textAlign: "center" }}
+                  style={{ fontWeight: "bold", textAlign: "center"}}
                 >
                   {/* to display the instructions in para */}
                   {/* <p
